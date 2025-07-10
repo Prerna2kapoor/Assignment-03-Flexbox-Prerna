@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Prerna Kapoor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <img src="images/logo.png" alt="Logo" class="logo" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="view-ads.html">View Ads</a>
+        <a href="create-add.html">Create Add</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <img src="images/profile.png" alt="Profile" class="profile" />
+    </div>
+  </header>
+
+  <main class="contact-section">
+    <h1>Contact Us</h1>
+    <p>Have questions or feedback? We'd love to hear from you!</p>
+
+    <!-- Notice: action="#" avoids redirecting to another page -->
+    <form class="contact-form" action="#">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+</body>
+</html>

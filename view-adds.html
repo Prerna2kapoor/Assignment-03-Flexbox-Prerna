@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>All Available Cars - Prerna Kapoor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 30px 10px 10px;
+      color: #333;
+    }
+
+    .car-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .car-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: 0.3s ease;
+    }
+
+    .car-card:hover {
+      transform: scale(1.02);
+    }
+
+    .car-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .car-details {
+      padding: 15px;
+    }
+
+    .car-details h2 {
+      font-size: 20px;
+      margin: 0;
+      color: #333;
+    }
+
+    .car-details p {
+      margin: 6px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .car-details strong {
+      color: #111;
+    }
+
+    .btn {
+      background-color: #ff4d4d;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #e84343;
+    }
+  </style>
+</head>
+<body>
+  <h1>All Available Cars</h1>
+  <div class="car-container">
+    
+    <div class="car-card">
+      <img src="Tata Punch.png" alt="Tata Punch" />
+      <div class="car-details">
+        <h2>Tata Punch</h2>
+        <p><strong>Brand:</strong> Tata</p>
+        <p><strong>Model:</strong> 2010</p>
+        <p><strong>Type:</strong> Manual</p>
+        <p><strong>Price:</strong> ₹120,000</p>
+        <p><strong>Location:</strong> Lucknow, Uttar Pradesh</p>
+        <button class="btn">Know More</button>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="Mahindra SUV.png" alt="Mahindra SUV" />
+      <div class="car-details">
+        <h2>Mahindra SUV</h2>
+        <p><strong>Brand:</strong> Mahindra</p>
+        <p><strong>Model:</strong> 2022</p>
+        <p><strong>Type:</strong> Automatic</p>
+        <p><strong>Price:</strong> ₹200,000</p>
+        <p><strong>Location:</strong> Nashik, Maharashtra</p>
+        <button class="btn">Know More</button>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="Swift Desire.png" alt="Swift Desire" />
+      <div class="car-details">
+        <h2>Swift Desire</h2>
+        <p><strong>Brand:</strong> Suzuki</p>
+        <p><strong>Model:</strong> 2021</p>
+        <p><strong>Type:</strong> Manual</p>
+        <p><strong>Price:</strong> ₹2,00,000</p>
+        <p><strong>Location:</strong> Lucknow, India</p>
+        <button class="btn">Know More</button>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="ssk car.png" alt="Suzuki Sports" />
+      <div class="car-details">
+        <h2>Suzuki Sports Car</h2>
+        <p><strong>Brand:</strong> Suzuki</p>
+        <p><strong>Model:</strong> 2023</p>
+        <p><strong>Type:</strong> Automatic</p>
+        <p><strong>Price:</strong> ₹1,20,000</p>
+        <p><strong>Location:</strong> Mumbai, Maharashtra</p>
+        <button class="btn">Know More</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
